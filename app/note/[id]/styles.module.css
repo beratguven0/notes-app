@@ -9,11 +9,29 @@
   display: none;
 }
 
+.bigNoteContainer::-webkit-scrollbar {
+  background: #eee;
+  width: 9px;
+}
+
+.bigNoteContainer::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.bigNoteContainer::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #888;
+}
+.bigNoteContainer::-webkit-scrollbar-thumb:hover {
+  background: #7c7c7c;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1010px) {
   .inputContainer {
     display: block;
   }
   .bigNoteContainer {
-    padding-bottom: 45px;
+    padding-bottom: 55px;
   }
 }

@@ -34,7 +34,6 @@
 .maimContainer::-webkit-scrollbar {
   background: #eee;
   width: 9px;
-  border-radius: 6px;
 }
 
 .maimContainer::-webkit-scrollbar-corner {
