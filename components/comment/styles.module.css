@@ -1,0 +1,30 @@
+.yorumyaz {
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0.4rem 0.4rem 0;
+}
+
+.title {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.commentContainer {
+  padding: 1rem 0;
+}
+
+.commentContainer > * {
+  margin: 1rem 0;
+}

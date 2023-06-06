@@ -1,0 +1,48 @@
+.bigBtn {
+  padding: 1rem 0;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #5ec4ff;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.bigBtn:hover {
+  background-color: #26afff;
+  color: rgb(236, 236, 236);
+}
+
+.smallBtn {
+  background-color: #5ec4ff;
+  padding: 0.5rem 1.4rem;
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.smallBtn:hover {
+  background-color: #26afff;
+  color: rgb(236, 236, 236);
+}
+
+.roundBtn {
+  width: 70px;
+  height: 70px;
+  border-radius: 1000px;
+  background-color: #5ec4ff;
+  transition: 0.4s ease-in-out;
+}
+
+.roundBtn:hover {
+  background-color: #26afff;
+  color: rgb(236, 236, 236);
+  transform: scale(1.2);
+}
+
+.roundBtn > * {
+  transition: 0.3s ease-in-out;
+}
+
+.roundBtn:hover > * {
+  color: rgb(236, 236, 236);
+  transform: scale(1.2);
+}

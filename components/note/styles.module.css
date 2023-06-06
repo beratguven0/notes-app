@@ -1,0 +1,125 @@
+.noteCard {
+  width: 300px;
+  height: 300px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  margin: 18px;
+  transition: 0.3s ease;
+}
+
+.noteCard:hover {
+  transition: 0.2s ease;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+}
+
+.textContainer {
+  height: 89%;
+}
+
+.bigTextContainer {
+  min-height: 250px;
+}
+
+.commentTextContainer {
+  min-height: 80px;
+}
+
+.commentTextContainer p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.bigTextContainer p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.textContainer p {
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.noteCardFooterContainer > * {
+  margin-top: 6px;
+}
+
+.noteCardFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  border-radius: 100px;
+}
+
+.btnGrup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnGrup > * {
+  padding-left: 10px;
+}
+
+.iconBtn {
+  background-color: transparent;
+}
+
+.deleteIcon {
+  transition: all 0.3s ease-in-out;
+}
+
+.deleteIcon:hover {
+  transform: scale(1.3);
+  color: red;
+}
+
+.bigNote {
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.EditIcon {
+  transition: all 0.3s ease-in-out;
+}
+
+.EditIcon:hover {
+  transform: scale(1.3);
+  color: blue;
+}
+
+.checkIcon {
+  transition: all 0.3s ease-in-out;
+}
+
+.checkIcon:hover {
+  transform: scale(1.3);
+  color: green;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+
+.editContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  padding-right: 20px;
+}

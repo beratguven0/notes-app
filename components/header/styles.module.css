@@ -1,0 +1,31 @@
+.header {
+  background-color: #bed8cf;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(to right, #00a2ff 0%, #2ab600 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.roundContainer {
+  display: none;
+}
+
+@media screen and (max-width: 1010px) {
+  .roundContainer {
+    display: block;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 2rem;
+  }
+}

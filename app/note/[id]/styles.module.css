@@ -1,0 +1,19 @@
+.mainContainer {
+}
+
+.bigNoteContainer {
+  padding: 1.5rem 2rem;
+  width: 100%;
+  overflow: auto;
+  height: 90vh;
+}
+
+.inputContainer {
+  display: none;
+}
+
+@media screen and (max-width: 1010px) {
+  .inputContainer {
+    display: block;
+  }
+}
