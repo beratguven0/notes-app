@@ -25,8 +25,8 @@
 }
 
 .roundBtn {
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   border-radius: 1000px;
   background-color: #5ec4ff;
   transition: 0.4s ease-in-out;
