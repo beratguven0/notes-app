@@ -25,7 +25,7 @@ export default function Note({ params }) {
   }
 
   return (
-    <div className={styles.mainContainer}>
+    <>
       <div className={styles.inputContainer}>
         {selectResponsiShow === true ? (
           <NotesInput selectedColor={selectedColor} />
@@ -40,6 +40,6 @@ export default function Note({ params }) {
         <Notes note={note[0]} variant="big" />
         <Comment note={note[0]} />
       </div>
-    </div>
+    </>
   );
 }

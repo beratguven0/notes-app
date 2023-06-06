@@ -1,7 +1,3 @@
-.mainContainer {
-  margin-bottom: 30px;
-}
-
 .bigNoteContainer {
   padding: 1.5rem 2rem;
   width: 100%;
@@ -16,5 +12,8 @@
 @media screen and (max-width: 1010px) {
   .inputContainer {
     display: block;
+  }
+  .bigNoteContainer {
+    padding-bottom: 45px;
   }
 }

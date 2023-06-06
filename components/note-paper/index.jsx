@@ -19,7 +19,7 @@ export default function NotePaper({ notes, selectedColor }) {
         <input
           type="text"
           className={styles.SearchInput}
-          placeholder="notlarınız arama"
+          placeholder="Search notes"
           value={searchText}
           onChange={handleSearchChange}
         />

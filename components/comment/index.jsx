@@ -19,7 +19,7 @@ export default function Comment({ note }) {
       setNotesValue("");
       setErrorMessage("");
     } else {
-      setErrorMessage("Not en az 3 karakter içermelidir.");
+      setErrorMessage("Minimum of 3 letters for Note");
     }
   };
 
@@ -41,7 +41,7 @@ export default function Comment({ note }) {
         <div className={styles.footer}>
           {errorMessage && <p className={styles.error}>{errorMessage}</p>}
           <Button onClick={() => handleCommentChange(note.id, notesValue)}>
-            Gönder
+            Add Comment
           </Button>
         </div>
       </div>

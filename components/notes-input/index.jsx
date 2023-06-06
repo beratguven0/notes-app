@@ -23,7 +23,7 @@ export default function NotesInput({ selectedColor }) {
       setInputValue("");
       setErrorMessage("");
     } else {
-      setErrorMessage("Not en az 3 karakter içermelidir.");
+      setErrorMessage("Minimum of 3 letters for Note");
     }
   };
 
@@ -41,7 +41,7 @@ export default function NotesInput({ selectedColor }) {
         <TextArea
           value={inputValue}
           rows={12}
-          placeholder={"yeni not girisi"}
+          placeholder="New note entry"
           style={{ background: selectedColor || "#fff8a7" }}
           onChange={(e) => handleAddText(e)}
         />

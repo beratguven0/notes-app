@@ -40,7 +40,7 @@ export default function Notes({ note, variant = "medium" }) {
       setEditing(!isEditing);
       setErrorMessage("");
     } else {
-      setErrorMessage("Not en az 3 karakter içermelidir.");
+      setErrorMessage("Minimum of 3 letters for Note.");
     }
   };
 
@@ -111,7 +111,7 @@ export default function Notes({ note, variant = "medium" }) {
                 variant="small"
                 onClick={() => handleUpdateNote(note.id, notesValue)}
               >
-                Tamam
+                Save
               </Button>
             </div>
           ) : (

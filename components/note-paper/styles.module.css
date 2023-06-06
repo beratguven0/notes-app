@@ -8,7 +8,7 @@
   padding: 0.5rem;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 65px;
+  margin-bottom: 20px;
 }
 
 .search {
@@ -54,5 +54,6 @@
   .notContainer {
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
   }
 }
