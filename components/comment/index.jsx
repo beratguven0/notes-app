@@ -30,7 +30,7 @@ export default function Comment({ note }) {
 
   return (
     <>
-      <h1 className={styles.title}>{note.comment.length} Ek Not</h1>
+      <h1 className={styles.title}>{note.comment.length} Note comments</h1>
       <div className={styles.yorumyaz} style={{ background: note.color }}>
         <TextArea
           rows={4}
