@@ -1,6 +1,6 @@
 # Notes App
 
-This project is a Notes App application that allows users to easily save their daily to-do lists, reminders, or notes.
+This project is a Notes application that allows users to easily save their daily to-do lists, reminders, or notes.
 
 ## Features
 - Users can add, edit, and delete their notes.
